@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Stock Data Extraction App", layout="wide")
 
 # Main title of the app
-st.page_title("Stock Data Extraction App")
+st.title("Stock Data Extraction App")
 
 # Short Description of the Subtitle
 st.write("Extract stock market data from Yahoo Finance using a ticker symbol.")
