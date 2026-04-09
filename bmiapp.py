@@ -9,4 +9,4 @@ height = st.number_input("Enter your height (meters)", min_value=0.5, max_value=
 if st.button("Calculate BMI"):
 #BMI Formula: (weight/height)*height
   bmi = (weight/height)*height
-st.subheader(f"Your BMI: {bmi:.2f}")
+  st.subheader(f"Your BMI: {bmi:.2f}")
